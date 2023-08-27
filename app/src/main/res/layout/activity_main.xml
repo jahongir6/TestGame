@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_misol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#1DE9B6"
+        android:padding="10dp"
+        android:text="Misol"
+        android:textColor="#080313"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_group"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C6FF00"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_keyingi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_misol">
+
+        <RadioButton
+            android:id="@+id/rad_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="A javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="B javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="C javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="A javob"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_keyingi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keyingii"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_group" />
+
+    <LinearLayout
+        android:id="@+id/lin_javob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_group"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/viev_javob"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+
+        <View
+            android:id="@+id/viev_javob10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
